@@ -1,0 +1,58 @@
+/* .sidebar {
+    background-color: white;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+} */
+
+.header-bar {
+    padding: 30px 60px 30px 30px;
+    background-color: white;
+    width: 100%;
+    height: 30px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: white;
+    position: relative;
+    margin: 0;
+    z-index: 3;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: black;
+    position: relative;
+    margin: 0;
+    z-index: 3;
+    right: 25%;
+}
+
+h3:hover {
+    color: #767676;
+    cursor: pointer;
+}
+
+h3.active {
+    color: #6699CC;
+    border-bottom: 2px solid #6699CC;
+}
+
+.h3-container {
+    display: flex;
+    gap: 45px;
+    width: fit-content;
+}
